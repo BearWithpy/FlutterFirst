@@ -1,20 +1,11 @@
 void main() {
-  // Not recommended, but useful... may be?
-  dynamic name = "Junsu";
+  // Null safety: 개발자가 Null 값을 참조하지 않도록 하는 것, 런타임 에러 방지
 
-  // You can define like this
-  // var name;
+  String? name = "jason";
+  name = null;
 
-  name = 1;
-  name = false;
-  name = "Unknown";
-
-  if (name is String) {
-    name.toLowerCase();
-  } else if (name is int) {
-    name.isInfinite;
-    name.abs();
-  } else {
-    return;
-  }
+  // if (name != null) {
+  //   name.isNotEmpty;
+  // }
+  name?.isNotEmpty;
 }
