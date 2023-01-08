@@ -1,8 +1,6 @@
 void main() {
-  late final String userName;
-
-  //print(userName); // error -> because this variable is not initialize
-
-  // Do something else.... blah.. blah~
-  userName = "Junsu";
+  // compile-time constant
+  // fetch 해온 상수는 final을 사용함
+  // 컴파일할 때도 정해져 있는 값
+  const name = "js";
 }
