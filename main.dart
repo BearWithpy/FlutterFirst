@@ -1,6 +1,12 @@
+import 'dart:html';
+
 void main() {
-  // compile-time constant
-  // fetch 해온 상수는 final을 사용함
-  // 컴파일할 때도 정해져 있는 값
-  const name = "js";
+  // Comes from Object...
+  String name = "js";
+  bool ver = true;
+  int num1 = 1;
+  double num2 = 2.2;
+
+  num n = 2;
+  n = 2.2;
 }
